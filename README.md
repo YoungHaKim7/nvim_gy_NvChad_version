@@ -21,5 +21,4 @@ rm -rf ~/.cache/nvim
 
 ```
 
-# 먼저 설치 nvim 깨끗이 만들기
 
