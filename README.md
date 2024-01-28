@@ -29,5 +29,56 @@ rm -rf ~/.local/share/nvim
 rm -rf ~/.cache/nvim
 
 ```
+# 내 LunarVim Setting
+
+- https://github.com/YoungHaKim7/lvim_Rust_AI_Setting
+
+<hr>
+:
+# lsp-inlayhints Color Setting(LspInlayHint로 해야 Comment까지 안됨)
+
+```
+:hi LspInlayHint guifg=#35638f guibg=#420517
 
 
+// 요즘 쓰는 색 240106
+:hi LspInlayHint guifg=#35638f guibg=#420517
+:hi Comment guifg=#35638f guibg=#420517
+```
+
+# Nvim - Surround
+
+- https://github.com/kylechui/nvim-surround 
+
+```
+    Old text                    Command         New text
+--------------------------------------------------------------------------------
+    surr*ound_words             ysiw)           (surround_words)
+    *make strings               ys$"            "make strings"
+    [delete ar*ound me!]        ds]             delete around me!
+    remove <b>HTML t*ags</b>    dst             remove HTML tags
+    'change quot*es'            cs'"            "change quotes"
+    <b>or tag* types</b>        csth1<CR>       <h1>or tag types</h1>
+    delete(functi*on calls)     dsf             function calls
+
+```
+<hr>
+
+-- Normal Mode
+key_map("n", "<leader>W", ":wqall<CR>", opts)
+key_map("n", "<leader>e", ":Neotree<CR>", opts)
+key_map("n", "<leader>t", ":TroubleToggle<CR>", opts)
+key_map("n", "<leader>o", ":SymbolsOutline<CR>", opts)
+
+-- buffer new
+key_map("n", "<leader>bt", ":tabe<CR>", opts)
+key_map("n", "<leader>btt", ":terminal<CR>", opts)
+-- buffer kill
+key_map("n", "<leader>bd", ":bd<CR>", opts)
+-- buffer next,previous tabe
+key_map("n", "L", "gt", opts)
+key_map("n", "H", "gT", opts)
+
+-- Insert Mode
+key_map("i","jk", "<Esc>", opts)
+```
