@@ -29,6 +29,11 @@ rm -rf ~/.local/share/nvim
 rm -rf ~/.cache/nvim
 
 ```
+
+# Rust LSP
+
+- https://www.reddit.com/r/neovim/comments/11clka0/adding_rust_to_lazyvim/
+
 # 내 LunarVim Setting
 
 - https://github.com/YoungHaKim7/lvim_Rust_AI_Setting
