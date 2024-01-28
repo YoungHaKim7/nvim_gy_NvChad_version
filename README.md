@@ -64,6 +64,8 @@ rm -rf ~/.cache/nvim
 ```
 <hr>
 
+- My setting Key
+```
 -- Normal Mode
 key_map("n", "<leader>W", ":wqall<CR>", opts)
 key_map("n", "<leader>e", ":Neotree<CR>", opts)
