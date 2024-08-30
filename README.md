@@ -34,6 +34,8 @@ rm -rf ~/.cache/nvim
 
 # WindowsOS설치
 - lua는 Microsoft Store에서 받으면 됨
+- luarocks설치하기
+  - https://github.com/luarocks/luarocks/wiki/Installation-instructions-for-Windows
 ```
 scoop install luarocks
 ```
