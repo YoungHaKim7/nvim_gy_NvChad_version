@@ -30,6 +30,18 @@ rm -rf ~/.cache/nvim
 
 ```
 
+<hr>
+
+# WindowsOS설치
+- lua는 Microsoft Store에서 받으면 됨
+```
+scoop install luarocks
+```
+- https://neovim.discourse.group/t/checkhealth-throwing-unneccessary-error-on-missing-lazy-rocks-hererocks/5006/2
+
+
+<hr>
+
 # Rust LSP
 
 - https://www.reddit.com/r/neovim/comments/11clka0/adding_rust_to_lazyvim/
